@@ -58,7 +58,7 @@
 .project-block .overlay-box .view-project:hover,
 .work-block .icon-box:before,
 .work-block:hover .icon-box .icon,
-.header-style-four .main-menu .navigation > li.current > a, 
+.header-style-four .main-menu .navigation > li.current > a,
 .header-style-four .main-menu .navigation > li:hover > a,
 .fluid-section-one .content-column .services li:hover a,
 .fluid-section-one .content-column .services li:hover .icon,
@@ -107,15 +107,15 @@
 .contact-info-block .icon,
 .pricing-table .duration,
 .btn-style-one,
-a{
-	color: #ab7442;
+a {
+  color: #05db06;
 }
 
 /*=== Background Color ===*/
 .service-tabs .tab-btns .tab-btn.active-btn,
-.sidebar .search-box .form-group input[type="submit"], 
+.sidebar .search-box .form-group input[type="submit"],
 .sidebar .search-box .form-group button,
-.banner-section-two .title:before, 
+.banner-section-two .title:before,
 .banner-section-two .title:after,
 .service-block-three .inner-box:before,
 .request-form:before,
@@ -123,7 +123,7 @@ a{
 .video-section .fact-counter .icon,
 .btn-style-two,
 .banner-section .slide-item .title:before,
- .banner-section .slide-item .title:after,
+.banner-section .slide-item .title:after,
 .theme-btn span:not(.btn-title),
 .subscribe-form .form-group input[type="submit"]:hover,
 .shop-item .overlay-box .btn-box a:hover,
@@ -139,7 +139,6 @@ a{
 .main-footer.style-two .contact-list li span,
 .main-footer .widget-title:before,
 .main-footer .footer-bottom,
-
 .contact-page-section .contact-info li .icon,
 .blog-detail .post-share-options .social-icon li a,
 .blog-detail .post-share-options .tags a,
@@ -178,11 +177,11 @@ a{
 .hidden-bar .inner-box .cross-icon,
 .mobile-menu .close-btn,
 .header-style-three .main-box:before,
-.scroll-to-top:hover{
-	background-color: #ab7442;
+.scroll-to-top:hover {
+  background-color: #05db06;
 }
 
-/*Border Color*/ 
+/*Border Color*/
 .tag-list li a:hover,
 .list-style-three li:before,
 .services-carousel .owl-dot,
@@ -246,22 +245,21 @@ a{
 .sortable-masonry .filters .filter:hover,
 .banner-section.style-three .owl-dot.active,
 .header-style-two,
-.cat-list li:hover:before, 
+.cat-list li:hover:before,
 .cat-list li.active:before,
 .main-header .search-panel input:focus,
 .main-header .search-panel select:focus,
-.main-header .search-box-outer .dropdown-men{
-	border-color: #ab7442;
+.main-header .search-box-outer .dropdown-men {
+  border-color: #05db06;
 }
 
-
 .feature-box .feature-block .inner,
-.payment-box .payment-options li .radio-option label .small-text:before{
-	border-bottom-color: #ab7442;
+.payment-box .payment-options li .radio-option label .small-text:before {
+  border-bottom-color: #05db06;
 }
 
 .offer-section .content-column .title:before,
 .offer-section .image-column .upper-box .title:before,
-.main-header .search-box-outer .dropdown-menu{
-	border-top-color: #ab7442;
+.main-header .search-box-outer .dropdown-menu {
+  border-top-color: #05db06;
 }

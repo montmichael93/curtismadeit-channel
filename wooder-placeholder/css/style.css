@@ -506,7 +506,13 @@ ul,li{
 img{
 	display:inline-block;
 	max-width:100%;
-	height:auto;	
+	height:auto;
+	width: 3.5rem;
+	
+}
+
+.brandinging {
+	border-radius: 50%;
 }
 
 .tabs-box{
@@ -739,6 +745,7 @@ img{
 	position: relative;
 	max-width: 100%;
 	height: auto;
+	width: 3.5rem;
 }
 
 .main-header .header-lower .nav-outer{
@@ -1489,7 +1496,7 @@ img{
 	display: flex;
 	justify-content: space-between;
   	align-items: center;
-  	background-color: #ffffff;
+  	background-color: #0be4e3;
   	padding: 0 30px;
   	box-shadow: 0 0 30px rgba(0,0,0,.30);
 }
@@ -6816,6 +6823,7 @@ img{
 .team-block{
 	position: relative;
 	margin-bottom: 60px;
+	display: contents;
 }
 
 .team-block .image-box{
