@@ -116,6 +116,11 @@ Tags: one-column, two-columns, right-sidebar, custom-header, custom-menu, editor
 
  ***/
 
+ #form {
+	width: 500px;
+	height: 700px;
+  }
+
 body {
 	
 	font-size:14px;
@@ -1496,7 +1501,7 @@ img{
 	display: flex;
 	justify-content: space-between;
   	align-items: center;
-  	background-color: #0be4e3;
+  	background-color: #05db06;
   	padding: 0 30px;
   	box-shadow: 0 0 30px rgba(0,0,0,.30);
 }
@@ -2769,7 +2774,7 @@ img{
 	top: 50%;
 	height: 3px;
 	width: 30%;
-	background-color: #ab7442;
+	background-color: #05db06;
 	content: "";
 	margin-left: 30px;
 }

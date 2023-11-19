@@ -108,7 +108,7 @@
 .pricing-table .duration,
 .btn-style-one,
 a {
-  color: #05db06;
+  color: #0be4e3;
 }
 
 /*=== Background Color ===*/
@@ -178,7 +178,7 @@ a {
 .mobile-menu .close-btn,
 .header-style-three .main-box:before,
 .scroll-to-top:hover {
-  background-color: #05db06;
+  background-color: #0be4e3;
 }
 
 /*Border Color*/
@@ -250,16 +250,16 @@ a {
 .main-header .search-panel input:focus,
 .main-header .search-panel select:focus,
 .main-header .search-box-outer .dropdown-men {
-  border-color: #05db06;
+  border-color: #0be4e3;
 }
 
 .feature-box .feature-block .inner,
 .payment-box .payment-options li .radio-option label .small-text:before {
-  border-bottom-color: #05db06;
+  border-bottom-color: #0be4e3;
 }
 
 .offer-section .content-column .title:before,
 .offer-section .image-column .upper-box .title:before,
 .main-header .search-box-outer .dropdown-menu {
-  border-top-color: #05db06;
+  border-top-color: #0be4e3;
 }
