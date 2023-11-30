@@ -1,6 +1,12 @@
 /* --------------------------------------------
 Google Map
 -------------------------------------------- */
+/*
+var fortWorthServiceArea = new google.maps.LatLngBounds(
+  new google.maps.LatLng(32.0, -98.5), // Southwest corner (adjust as needed)
+  new google.maps.LatLng(33.5, -96.0) // Northeast corner (adjust as needed)
+);*/
+////////////////////////////////////////////////////////
 window.onload = MapLoadScript;
 function GmapInit() {
   Gmap = $(".map-canvas");
@@ -64,6 +70,11 @@ function GmapInit() {
       draggable: draggable,
       center: new google.maps.LatLng(lat, lng),
       mapTypeId: mapType,
+      /*
+      restriction: {
+        latLngBounds: fortWorthServiceArea,
+        strictBounds: false,
+      },*/
     };
     var map = new google.maps.Map($this[0], mapOptions);
 
@@ -109,11 +120,20 @@ function GmapInit() {
           ],
         },
         {
-          featureType: "landscape",
+          featureType: "landscape.natural",
           elementType: "all",
           stylers: [
             {
-              color: "#fafafa",
+              color: "#8F9779",
+            },
+          ],
+        },
+        {
+          featureType: "landscape.man_made",
+          elementType: "all",
+          stylers: [
+            {
+              color: "#D3D3D3",
             },
           ],
         },
@@ -122,7 +142,17 @@ function GmapInit() {
           elementType: "all",
           stylers: [
             {
-              visibility: "off",
+              visibility: "on",
+            },
+          ],
+        },
+
+        {
+          featureType: "poi.park",
+          elementType: "all",
+          stylers: [
+            {
+              color: "#4B6F44",
             },
           ],
         },
@@ -139,20 +169,31 @@ function GmapInit() {
           ],
         },
         {
+          featureType: "road.local",
+          elementType: "all",
+          stylers: [
+            {
+              color: "#4f5054",
+            },
+          ],
+        },
+
+        {
           featureType: "road.highway",
           elementType: "all",
           stylers: [
             {
-              visibility: "simplified",
+              color: "#5f5f5f",
+              visibility: "off",
             },
           ],
         },
         {
           featureType: "road.arterial",
-          elementType: "labels.icon",
+          elementType: "all",
           stylers: [
             {
-              visibility: "off",
+              color: "#5f5f5f",
             },
           ],
         },
@@ -170,11 +211,12 @@ function GmapInit() {
           elementType: "all",
           stylers: [
             {
-              color: "#a0a09a",
+              color: "#6B9AC4",
             },
             {
               visibility: "on",
             },
+            //add more
           ],
         },
       ];
