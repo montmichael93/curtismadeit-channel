@@ -526,10 +526,6 @@ img {
   width: 3.5rem;
 }
 
-.brandinging {
-  border-radius: 50%;
-}
-
 .tabs-box {
   position: relative;
 }
@@ -12037,4 +12033,27 @@ form .response .text-info {
 
 .box-layout .coming-soon .content {
   position: relative;
+}
+
+/*** 
+====================================================================
+	added styles
+====================================================================
+***/
+
+.brandinging {
+  border-radius: 50%;
+}
+
+#JotFormIFrame-233424549821155 {
+  min-width: 100%;
+  max-width: 100%;
+  height: 65rem;
+  border: none;
+}
+
+.shop-video {
+
+  width: 21rem;
+  height: 15rem;
 }
